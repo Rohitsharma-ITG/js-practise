@@ -1,0 +1,212 @@
+body{
+    background-color: antiquewhite;
+    color: black;
+    font-family: sans-serif;
+}
+
+.center{
+    text-align: center;
+    margin: 50px 0px ;
+}
+
+.container-main{
+    max-width: 1460px;
+    margin: auto;
+}
+
+.container{
+    width: 85%;
+    margin: auto;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+}
+
+button {
+    padding: 10px 15px;
+    background: #ff2323;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#bunny{
+    mix-blend-mode: darken;
+    display: none;
+}
+
+#zoom{
+    mix-blend-mode: darken;
+}
+
+#trance{
+    mix-blend-mode: darken;
+    transition: all 2s ease;
+}
+
+#zoom-btn{
+    margin-left: 100px;
+}
+
+.scrol {
+    width: 80%;
+    margin: auto;
+    overflow: scroll;
+    height: 200px;
+}
+
+#blur {
+    filter: blur(2px);
+    mix-blend-mode: darken;
+}
+
+
+p#on-change {
+    overflow: hidden;
+    width: 0px;
+    height: 15px;
+    transition: all 10s ease;
+}
+
+#rot{
+    mix-blend-mode: darken;
+    transition: all 10s ;
+}
+
+/* select css */
+
+.select-option {
+    width: 200px;
+    background: #ff9292;
+}
+
+#selected {
+    padding: 15px;
+    margin: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+}
+
+.alloption {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+
+.option {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.option:hover{
+    background-color: aliceblue;
+}
+
+.mystyle{
+    display: block;
+}
+
+.container.dog-div {
+    background: #F4DCD3;
+    position: relative;
+}
+
+#dog-image{
+    margin-bottom: 25px;
+    transition :all 10s ease-out;
+}
+
+input[type="button"] {
+    width: 100%;
+    height: 100%;
+    padding: 15px 35px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s ;
+}
+input[type="button"]:hover{
+    box-shadow:  0px 0px 2px 0px;
+}
+table, th, td {
+    border-collapse: collapse;
+  }
+  td {
+    padding: 5px 8px;
+}
+input.equal {
+ 
+    background-color: #3079ED;
+    color: white;
+    height: 310px;
+    border: 1px solid grey;
+}
+.equal:hover {
+    background-color:  #2469d8;
+    color: white;
+}
+tbody {
+    border: 1px solid grey;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+th{
+    border-collapse: collapse;
+
+
+        padding: 8px 6px;
+}
+
+
+input#a {
+    width: 97%;
+    height: 55px;
+    border: 1px solid grey;
+    transition: all 0.2s ease;
+    outline: 0;
+}
+#a:hover {
+    box-shadow: inset 0px 0px 2px 0px;
+}
+.color_grey {
+    border: 0;
+    background-color: #dddddd;
+    border: 1px solid grey;
+}
+
+.color_white {
+    border: 0;
+    background-color: #f9f9f9;
+    border: 1px solid grey;
+}
+
+/* 
+h1 {
+    text-align: center;
+}
+
+input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ddd;
+} */
+input#velidate {
+    padding: 5px 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+}

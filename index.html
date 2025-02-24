@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>basic js</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body id="body">
+  <div class="center">
+    <h1 contenteditable="true">
+      Basic java script
+    </h1>
+  </div>
+  <div class="container-main">
+    <div class="container">
+      <h2>1. Change Text</h2>
+      <P class="change" >java script change html text content</P>
+      <button onclick="demo()">Change text</button>
+      <button onclick="demoRevert()">Revert text</button>
+    </div>
+    <div class="container">
+      <h2>
+        2. Change image
+      </h2>
+      <img class="image-change" src="image/offblub.png" alt="image" width="100">
+      <button onclick="onbulb()">bulb on</button>
+      <button onclick="offbulb()">bulb off</button>
+    </div>
+    <div class="container">
+      <h2>3. hide and see </h2>
+      <p class="none">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <button onclick="none()">Hide</button>
+      <button onclick="block()">See</button>
+    </div>
+    <div class="container">
+      <h2>4. Sum</h2>
+      <p>a = 64 </p>
+      <p>b = 36 </p>
+      <p>a + b = <span class="sum">?</span></p>
+      <button onclick="sum()"> Check the answer</button>
+      <button onclick="sumRevert()"> hide the answer</button>
+    </div>
+    <div class="container">
+      <h2>5. multiply</h2>
+      <p>a = 49 </p>
+      <p>b = 7 </p>
+      <p>c = <span class="multiply">a * b</span></p>
+      <button onclick="multi()"> Check the answer</button>
+      <button onclick="multiRevert()"> hide the answer</button>
+    </div>
+    <div class="container">
+      <h2>6. mouse over or mouse out</h2>
+      <img id="img-mouse" onmouseover="mouseover()" onmouseout="mouseout()" src="image/offblub.png" alt="image"
+        width="100">
+    </div>
+    <div class="container">
+      <h2>7. Write here without writting here</h2>
+      <h3 class="name"></h3>
+      <button onclick="share()"> Write your Name</button>
+    </div>
+    <div class="container">
+      <img id="bunny" src="image/bunny.png" alt="bunny">
+      <h2 style="cursor: pointer;" ondblclick="bunny()">8. double click on me to see cute picture</h2>
+      <button onclick="bunnyRevert()"> hide </button>
+    </div>
+    <div class="container">
+      <h2>9. claculate</h2>
+      <p>value of a</p>
+      <p>what you want to apply ( + , - , * , / )</p>
+      <p>value of b</p>
+      <p>give all value then take your answer here</p>
+      <h3 class="ans"></h3>
+      <button onclick="calc()"> Calculate your mathematic problem here </button>
+    </div>
+    <div class="container">
+      <h2>10. click the button to zoom it</h2>
+      <img id="zoom" src="image/bunny.png" alt="bunny">
+      <button id="zoom-btn" onclick="zoom()"> Zoom </button>
+      <button id="zoom-btn" onclick="zoomout()"> Zoom out </button>
+    </div>
+    <div class="container">
+      <h2>11. text design change</h2>
+      <h3 id="design">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h3>
+      <button onclick="design()"> change design </button>
+      <button onclick="designRevert()">Revert </button>
+    </div>
+    <div class="container">
+      <h2>12. change direction</h2>
+      <img id="direc" src="image/direction.png" alt="image">
+      <button onclick="direc()">change direction </button>
+      <button onclick="direcTwo()"> Revert </button>
+    </div>
+    <div class="container">
+      <h2>13. change position</h2>
+      <img id="trance" src="image/bunny.png" alt="bunny">
+      <button onclick="trance()"> slide </button>
+      <button onclick="tranceRevert()"> Revert </button>
+    </div>
+    <div class="container">
+      <h2>14. hover on Image then Image will Rotate </h2>
+      <img id="show" onmouseover="show()" src="image/img.png" alt="img">
+      <button onclick="showTwo()">Stop</button>
+    </div>
+    <div class="container">
+      <h2>15. on Scroll function</h2>
+
+      <div onscroll="scrol()" class="scrol">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde molestiae dolore dolores explicabo
+          magnam. Dolore, minus veritatis rem consequuntur deserunt dolores aperiam maiores modi adipisci?
+          Nihil vero sint perferendis quasi?
+          Nostrum cupiditate voluptates earum nihil harum libero quisquam, et sunt ipsam neque dignissimos
+          debitis facere obcaecati esse minus, similique ipsum eum illum laudantium aspernatur perferendis
+          laboriosam architecto provident aut! Asperiores?
+          Doloribus illum perferendis nostrum fuga fugit qui cum dicta at voluptatum omnis incidunt ipsum
+          debitis vel excepturi, explicabo unde vitae impedit quas porro esse magni nam error tempora in. Ad?
+          Accusamus cumque sequi amet labore, ea obcaecati sunt fugiat corrupti aut nisi ut recusandae id
+          laudantium aperiam quis? Recusandae ut soluta animi eaque deleniti modi a? Ex eos fugiat
+          voluptatibus!
+          Quasi minus aliquid fuga, ad error assumenda fugit perferendis, sit molestiae voluptatem mollitia
+          autem nihil ab id repellat architecto dolor unde! Explicabo ex consequuntur veritatis autem
+          laboriosam commodi magnam modi!
+          Reiciendis, consectetur delectus? Enim quos quo explicabo, veritatis numquam unde pariatur eius
+          repudiandae consequuntur, quasi placeat voluptates nisi odit fugit optio magni? Iste sint architecto
+          vel omnis sed reprehenderit totam?
+          Iusto illo mollitia, alias, sapiente voluptas fuga magnam blanditiis porro doloremque, est
+          accusantium sunt qui id deserunt necessitatibus magni nesciunt eligendi laudantium? Perferendis ad
+          debitis veniam ducimus ex officiis cupiditate.
+          Incidunt impedit atque ullam fuga. Quidem et veniam nisi nulla corrupti ipsa hic tempora labore
+          praesentium necessitatibus sunt quo, aperiam voluptatum veritatis libero quia obcaecati amet qui
+          placeat autem. Iste.
+          Sit provident deleniti rem similique eligendi, at voluptate illo illum ut. Quisquam qui excepturi
+          provident distinctio, impedit magnam placeat iure alias ipsam quas culpa reiciendis dolor eius sequi
+          tempora quae!
+          Optio, hic quibusdam. Laboriosam non, molestias quod, quis natus ut, dolores architecto cupiditate
+          quibusdam doloremque officia. Atque iusto porro officia doloribus recusandae sunt placeat
+          voluptatibus soluta dolorum minima, earum sed.
+          Odio reprehenderit, labore atque quam ut corrupti officia sapiente ab ipsum impedit voluptas ad
+          perferendis earum voluptatibus repellat accusamus ratione eum optio possimus, adipisci dolores
+          consequuntur nobis similique. Atque, laboriosam.
+          Fugiat blanditiis inventore quam nostrum quasi harum provident ea optio quis molestiae, sunt ad
+          impedit iure unde aliquam quae officia ipsa saepe repellat porro iusto voluptatem. Ratione quod
+          saepe tempore!
+          Debitis earum provident voluptas excepturi laborum sequi numquam deleniti laboriosam nesciunt,
+          voluptatum facilis enim voluptatem, iste illo ipsa quia ratione ipsam labore? Enim aliquam suscipit
+          eligendi magnam modi at labore.
+          Ducimus, eos alias! Expedita magni, cum illo similique dolore totam sunt molestiae quisquam quo
+          possimus ipsum, voluptatum voluptates tempora nihil iure? Praesentium voluptatem iure animi
+          accusamus, quis commodi aliquid rem!
+          Veritatis, autem provident itaque accusamus sit voluptates? Velit vitae voluptatibus ratione
+          doloribus aspernatur eos atque omnis voluptatum repellendus necessitatibus reiciendis dignissimos
+          debitis obcaecati, repudiandae soluta, tempore, accusamus culpa corrupti illum!
+          Quia autem fuga corrupti perspiciatis libero est illum eaque cum, voluptate deserunt reiciendis
+          minima fugit, porro odio, recusandae molestiae vero? Corporis nemo ut perferendis, facere voluptatem
+          non quas? Atque, laudantium.
+          Voluptatum sed repellat necessitatibus odio et officiis reprehenderit possimus assumenda, nam saepe
+          dolorum quo dicta tempora nostrum aliquid minus! Nam odio libero deserunt, adipisci nobis
+          repellendus nisi illum voluptate iure.
+          Vitae impedit praesentium odio aperiam non sint veritatis, quos, explicabo labore illum molestias
+          doloremque tenetur vero! Reprehenderit minima dolores cumque doloremque dolore veniam nostrum, dicta
+          illum neque illo tempore suscipit!
+          Odit ullam odio, natus culpa doloremque reprehenderit hic distinctio itaque. Cupiditate
+          exercitationem laudantium, molestiae perferendis placeat odit fugiat culpa minus illo impedit,
+          debitis molestias velit asperiores itaque laborum facere quia.
+          Ullam, dolores ipsam? Eligendi dicta fugit a, autem iusto est ea unde natus, facere aliquam ullam!
+          Libero, et velit consectetur modi qui maiores, nemo numquam magni cupiditate nostrum iste a?
+          Quas incidunt, velit illo labore neque consequuntur amet tenetur eaque blanditiis quia quisquam ex
+          numquam dolore repellat sunt aliquid nisi eveniet consectetur quam hic minima laboriosam aperiam
+          voluptatem earum. Quis?
+          Laboriosam, consectetur ipsum et saepe sit a, commodi ducimus itaque corporis odio atque neque
+          exercitationem fugit sapiente quae pariatur tenetur eveniet vero necessitatibus voluptate libero,
+          fugiat labore! Placeat, ab ad!
+          Consectetur nesciunt possimus cumque mollitia facere commodi quisquam, sit ex cupiditate recusandae
+          unde aut doloremque eius rerum voluptas impedit magni culpa! Cupiditate sunt quo vel aliquam veniam
+          sit qui maiores!
+          Consequatur dicta deserunt distinctio minus, adipisci eaque iste, ducimus porro aliquam quae atque.
+          Nihil, eius soluta. Velit sequi mollitia distinctio culpa autem minima illum debitis doloribus,
+          eaque, soluta reiciendis ipsam!
+          Placeat deserunt nostrum enim non, et itaque officiis laborum ullam. Pariatur quis quasi adipisci
+          maiores ipsum asperiores rerum at eius, corporis saepe soluta earum blanditiis officia suscipit eos
+          ea aut?
+          Quisquam quaerat ullam nihil libero eveniet deserunt voluptates maiores quae veritatis ea debitis
+          vero iste sequi natus hic earum ipsum facilis, fuga quo voluptas doloribus rerum veniam enim unde.
+          Soluta?
+          Consectetur, quod assumenda accusantium molestiae, harum quisquam suscipit maxime esse libero nulla
+          corporis impedit sapiente vitae, tempore architecto tempora. Corporis cum dignissimos illum id
+          adipisci assumenda harum repellat, voluptatum modi!
+        </p>
+      </div>
+      <button onclick="scrolRevert()">Revert</button>
+    </div>
+    <div class="container">
+      <h2>16. On input</h2>
+      <input type="text" id="myInput" oninput="input()" placeholder="Type something...">
+      <p id="output"></p>
+    </div>
+    <div class="container">
+      <h2>17. on focus</h2>
+      <input type="text" id="myInput" onfocus="handleFocus()" placeholder="Click to focus...">
+      <p id="message"></p>
+      <button onclick="handleFocusRevert()">Revert</button>
+    </div>
+    <div class="container">
+      <h2>18. on click</h2>
+      <button onclick="clearimg()"> show clear image </button>
+      <button onclick="clearimgTwo()"> Revert </button>
+      <img id="blur" src="image/bunny.png" alt="img">
+    </div>
+    <div class="container">
+      <h2>19. background change</h2>
+      <h2 class="color">
+        chnge when you tap the button
+      </h2>
+      <button onclick="redButton()"> Red </button>
+      <button onclick="greenButton()"> Green </button>
+      <button onclick="resetButton()"> Reset </button>
+    </div>
+    <div class="container">
+      <h2>20. change when you click</h2>
+      <h3 id="style">Lorem ipsum dolor, sit amet</h3>
+      <button onclick="stylechange()">click</button>
+      <button onclick="stylechangeTwo()">revert</button>
+    </div>
+    <div class="container">
+      <h2>21. click to see the function</h2>
+      <p id="on-change">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet
+        consectetur Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia </p>
+      <button onclick="onChange()">see</button>
+      <button onclick="onChangeTwo()">hide</button>
+    </div>
+    <div class="container">
+      <h2>22. change body background-color</h2>
+      <button onclick="bodyButton()"> gray </button>
+      <button onclick="bodyBtn()">reset</button>
+    </div>
+    <div class="container">
+      <h2>23. change image width </h2>
+      <img class="two-three" src="image/img.png" alt="img">
+      <button onclick="twoThree()">small</button>
+      <button onclick="twoThreeTwo()">normal</button>
+      <button onclick="twoThreebig()">big</button>
+    </div>
+    <div class="container">
+      <h2>24. rotate </h2>
+      <img id="rot" src="image/bunny.png" alt="img">
+      <button onclick="roTate()">rotate</button>
+    </div>
+
+
+    <div class="container">
+      <h2>25. custom select option</h2>
+      <div class="select-option">
+
+        <p id="selected" onclick="selecTed()">select language <span><i class="fa-solid fa-angle-down"></i></span> </p>
+        <ul class="alloption">
+          <li class="option" onclick="hindiLang()">Hindi</li>
+          <li class="option" onclick="engLang()">English</li>
+          <li class="option" onclick="germanLang()">German</li>
+        </ul>
+      </div>
+    </div>
+    <div class="container">
+      <h2>26. Show password</h2>
+      <div>
+        <label for="paas-input">Password: </label>
+        <input id="pass-input" type="password">
+      </div>
+      <div>
+        <input id="check" onclick="showPassword()" type="checkbox">
+        <label for="check">Show Password</label>
+      </div>
+    </div>
+    <div class="container dog-div">
+      <h2>27. Tap to run dog</h2>
+      <img id="dog-image" src="image/dog.png" alt="image">
+      <button onclick="dogRun()">Run</button>
+      <button onclick="dogRevert()">Run backward</button>
+      <button onclick="dogstop()">check</button>
+    </div>
+
+    <div class="container">
+      <h2>29. print only even value 1 to 100</h2>
+      <p class="print"></p>
+      <button onclick="print()">Print</button>
+    </div>
+
+    <div class="container">
+      <h2>30. print prime number</h2>
+      <p class="print_prime_here"></p>
+      <button class="print_prime">Print</button>
+    </div>
+
+    <div class="container">
+      <h2>31. print random number</h2>
+      <p class="print_random_here"></p>
+      <button class="print_random">Print</button>
+    </div>
+
+    <div class="container">
+      <h2>32. Count the Number of Vowels in a String</h2>
+      <p class="count_vowels_here"></p>
+      <button class="count_vowels">Print</button>
+    </div>
+
+    <div class="container">
+      <h2>33. Find the Second Largest Number in an Array</h2>
+      <p>[1, 5, 6, 8, 9, 4]</p>
+      <p class="sec_large_here"></p>
+      <button class="sec_large">Print</button>
+    </div>
+
+    <div class="container">
+      <h2>34.Find the Largest of Two Numbers(Using Ternary operator)</h2>
+      <p class="largest_no_here"></p>
+      <button class="largest_no">Print</button>
+    </div>
+
+    <div class="container">
+      <h2>35.Reverse a String</h2>
+      <p class="reverse_strg_here"></p>
+      <button class="reverse_strg">Print</button>
+    </div>
+
+    <div class="container">
+      <h2>36.palindromes </h2>
+      <p class="palindromes_btn_here"></p>
+      <button class="palindromes_btn">check</button>
+    </div>
+
+    <div class="container">
+      <h2>36.swap up </h2>
+      <p class="sawp_up_value"></p>
+      <p class="sawp_up_value_2"></p>
+      <button class="sawp_up">check</button>
+    </div>
+
+
+    <div class="container">
+      <h2>37.For finding suare root</h2>
+      <p class="print_squareroot"></p>
+      <button class="squareroot">check</button>
+    </div>
+
+
+    <div class="container">
+      <h2>38.For finding Area of Triangle</h2>
+      <p class="print_triangle_are"></p>
+      <button class="triangle_are">check</button>
+    </div>
+
+
+    <div class="container">
+      <h2>39.Convert kilometer into miles</h2>
+      <p class="print_miles"></p>
+      <button class="miles">check</button>
+    </div>
+
+    <div class="container">
+      <h2>39.Armstrong number </h2>
+      <p class="armstrong_value"></p>
+      <button class="armstrong">check</button>
+    </div>
+
+    <div class="container">
+      <h2>40. Calculater</h2>
+      <table class="center">
+        <tr>
+          <th colspan="4"><input type="text" id="a"></th>
+
+
+        </tr>
+        <tr>
+          <td><input type="button" value="+" onclick="pickup('+')" class="color_grey"></td>
+          <td><input type="button" value="-" onclick="pickup('-')" class="color_grey"></td>
+          <td><input type="button" value="*" onclick="pickup('*')" class="color_grey"></td>
+          <td><input type="button" value="/" onclick="pickup('/')" class="color_grey"></td>
+
+
+        </tr>
+        <tr>
+          <td><input type="button" value="1" onclick="pickup(1)" class="color_white"></td>
+          <td><input type="button" value="2" onclick="pickup(2)" class="color_white"></td>
+          <td><input type="button" value="3" onclick="pickup(3)" class="color_white"></td>
+          <td rowspan="4"><input type="button" value="=" onclick="solve()" class="equal"></td>
+        </tr>
+        <tr>
+          <td><input type="button" value="4" onclick="pickup(4)" class="color_white"></td>
+          <td><input type="button" value="5" onclick="pickup(5)" class="color_white"></td>
+          <td><input type="button" value="6" onclick="pickup(6)" class="color_white"></td>
+
+
+        </tr>
+        <tr>
+          <td><input type="button" value="7" onclick="pickup(7)" class="color_white"></td>
+          <td><input type="button" value="8" onclick="pickup(8)" class="color_white"></td>
+          <td><input type="button" value="9" onclick="pickup(9)" class="color_white"></td>
+
+
+        </tr>
+        <tr>
+          <td><input type="button" value="." onclick="pickup('.')" class="color_white"></td>
+          <td><input type="button" value="0" onclick="pickup('0')" class="color_white"></td>
+          <td><input type="button" value="c" onclick="clearme()" class="color_white"></td>
+        </tr>
+
+      </table>
+
+    </div>
+
+    <div class="container">
+      <h2>41. LCM </h2>
+      <p class="lcm_value"></p>
+      <button class="lcm">check</button>
+    </div>
+
+    <div class="container">
+      <div class="validate_wrapper">
+        <input type="text" id="velidate" placeholder="validation input..." maxlength="3">
+        <p></p>
+       </div>
+    </div>
+
+  </div>
+
+  <script src="basic.js"></script>
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="page-width">
+    <div class="custom_richtext">
+      {% for block in section.blocks %}
+          <div class="custom_richtext_grid">
+<div class="page-width">
+  <div class="custom_richtext">
+    {% for block in section.blocks %}
+        <div class="custom_richtext_grid">
+          {% case block.type %}
+            {% when 'heading' %}
+            <h2>{{ block.settings.rich_text_heading }}</h2>
+            {% when 'content' %}
+            <div>{{ block.settings.rich_text_content }}</div>
+            {% when 'button' %}
+            
+          {% endcase %}
+        </div>
+    {% endfor %}
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "custom rich text",
+    "settings": [],
+    "blocks": [
+      {
+        "type": "heading",
+        "name": "heading",
+        "settings": [
+          {
+            "type": "text",
+            "id": "rich_text_heading",
+            "label": "Heading"
+          }
+        ]
+      },
+      {
+        "type": "content",
+        "name":"Content",
+        "settings": [
+          {
+            "type": "richtext",
+            "id": "rich_text_content",
+            "label": "Content"
+          }
+        ]
+      },
+      {
+        "type": "button",
+        "name":"button",
+        "settings": [
+          {
+            "type": "url",
+            "id": "button_url",
+            "label": "Button url"
+          },
+          {
+            "type": "text",
+            "id": "button_label",
+            "label": "Button Label"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "custom rich text"
+      }
+    ]
+  }
+{% endschema %}
+            {% case block.type %}
+              {% when 'heading' %}
+              <h2>{{ block.settings.rich_text_heading }}</h2>
+              {% when 'content' %}
+              <div>{{ block.settings.rich_text_content }}</div>
+              {% when 'button' %}
+              
+            {% endcase %}
+          </div>
+      {% endfor %}
+    </div>
+  </div>
+  
+  
+  {% schema %}
+    {
+      "name": "custom rich text",
+      "settings": [],
+      "blocks": [
+        {
+          "type": "heading",
+          "name": "heading",
+          "settings": [
+            {
+              "type": "text",
+              "id": "rich_text_heading",
+              "label": "Heading"
+            }
+          ]
+        },
+        {
+          "type": "content",
+          "name":"Content",
+          "settings": [
+            {
+              "type": "richtext",
+              "id": "rich_text_content",
+              "label": "Content"
+            }
+          ]
+        },
+        {
+          "type": "button",
+          "name":"button",
+          "settings": [
+            {
+              "type": "url",
+              "id": "button_url",
+              "label": "Button url"
+            },
+            {
+              "type": "text",
+              "id": "button_label",
+              "label": "Button Label"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "custom rich text"
+        }
+      ]
+    }
+  {% endschema %} -->
